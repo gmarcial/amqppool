@@ -1,5 +1,5 @@
 # AMQP Pool
-A simple amqp channel pool
+A simple amqp channel pool made from of go client [streadway/amqp](https://github.com/streadway/amqp).
 
 ### WARNING: Immature, don't was tested them enough in production.
 
