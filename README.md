@@ -10,9 +10,7 @@ A simple amqp channel pool made from of go client [streadway/amqp](https://githu
 - [Example](./example/main.go)
 
 ## Test
-Configure an instance of rabbitmq on your machine, export the connection string how environment variable and run the tests.
-
-Example:
+Configure an instance of rabbitmq on your machine, export the connection string how environment variable and run the tests:
 
     export AMQP_CONNECTION=amqp://guest:guest@127.0.0.1:5672/ 
 
