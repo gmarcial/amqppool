@@ -22,7 +22,7 @@ func (reusableChannel *ReusableChannel) Release() {
 //isReleased encapsulate the verification if the reusable channel was released
 func (reusableChannel *ReusableChannel) isReleased() error {
 	if reusableChannel.released {
-		return &UseReleaseChannel{message: "Tried to use a reusable channel that was already released"}
+		return ErrUseReleaseChannel
 	}
 
 	return nil
